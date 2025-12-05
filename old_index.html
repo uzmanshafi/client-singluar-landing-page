@@ -1,48 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <title>Prophecy Vault | Crypto & Prediction Market Trading Group</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prophecy Vault</title>
+    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
     <link
       rel="shortcut icon"
-      href="resources/imgs/favico/icon.jpg"
+      href="resources/imgs/logos/logo_v2.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="css/style.css" />
   </head>
-  <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
-      <div class="navbar-brand">Prophecy Vault</div>
-      <a href="#" class="navbar-x-btn">
-        <i class="fa-brands fa-x-twitter"></i>
-      </a>
-    </nav>
+  <body class="min-h-screen flex items-center justify-center">
+    <div class="flex flex-col items-center justify-center relative">
+      <img
+        src="resources/imgs/logos/logo_v3.png"
+        alt="ProphecyVault Logo"
+        class="w-128s h-auto relative z-10"
+      />
+      <h1
+        class="text-6xl font-bold bg-gradient-to-t from-slate-800 via-white to-zinc-400 bg-clip-text text-transparent uppercase tracking-widest -mt-12 relative z-20"
+      >
+        Prophecy Vault
+      </h1>
+      <p
+        class="mt-6 text-center text-sm text-gray-200 tracking-widest max-w-md relative z-20"
+      >
+        The Prophecies foretold in the vault will be fulfilled.
+      </p>
 
-    <!-- World map background -->
-    <div class="bg-canvas">
-      <canvas id="c" aria-label="Interactive world pixels" role="img"></canvas>
-    </div>
-
-    <!-- Content overlay -->
-    <div class="content">
-      <div class="logo-container">
-        <img
-          src="resources/imgs/logos/white_logo.png"
-          alt="Prophecy Vault Logo"
-        />
-      </div>
-
-      <div class="btn-wrapper">
+      <div class="btn-wrapper mt-10 z-10">
         <button class="btn">
-          <span class="btn-svg-bg">
-            <i class="btn-svg text-white fa-brands fa-x-twitter"></i>
-          </span>
+          <span class="btn-svg-bg"
+            ><i class="btn-svg text-white fa-brands fa-x-twitter"></i
+          ></span>
 
           <div class="txt-wrapper">
             <div class="txt-1">
@@ -70,7 +66,5 @@
         </button>
       </div>
     </div>
-
-    <script src="js/custom.js"></script>
   </body>
 </html>
