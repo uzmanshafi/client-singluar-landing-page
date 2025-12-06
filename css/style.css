@@ -240,6 +240,11 @@ canvas {
   left: 50%;
   transform: translateX(-50%);
   text-align: center;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 
 .txt-1 {
